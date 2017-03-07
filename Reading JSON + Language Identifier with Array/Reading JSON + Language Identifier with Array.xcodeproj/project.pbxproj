@@ -14,6 +14,8 @@
 		F311CF131E6F1FD500E135E4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F311CF111E6F1FD500E135E4 /* LaunchScreen.storyboard */; };
 		F311CF1E1E6F1FD500E135E4 /* Reading_JSON___Language_Identifier_with_ArrayTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F311CF1D1E6F1FD500E135E4 /* Reading_JSON___Language_Identifier_with_ArrayTests.swift */; };
 		F311CF291E6F1FD500E135E4 /* Reading_JSON___Language_Identifier_with_ArrayUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F311CF281E6F1FD500E135E4 /* Reading_JSON___Language_Identifier_with_ArrayUITests.swift */; };
+		F311CF371E6F518100E135E4 /* flowersData.json in Resources */ = {isa = PBXBuildFile; fileRef = F311CF361E6F518100E135E4 /* flowersData.json */; };
+		F311CF391E6F538100E135E4 /* languageData.json in Resources */ = {isa = PBXBuildFile; fileRef = F311CF381E6F538100E135E4 /* languageData.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		F311CF241E6F1FD500E135E4 /* Reading JSON + Language Identifier with ArrayUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Reading JSON + Language Identifier with ArrayUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F311CF281E6F1FD500E135E4 /* Reading_JSON___Language_Identifier_with_ArrayUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Reading_JSON___Language_Identifier_with_ArrayUITests.swift"; sourceTree = "<group>"; };
 		F311CF2A1E6F1FD500E135E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F311CF361E6F518100E135E4 /* flowersData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = flowersData.json; sourceTree = "<group>"; };
+		F311CF381E6F538100E135E4 /* languageData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = languageData.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +107,8 @@
 				F311CF0F1E6F1FD500E135E4 /* Assets.xcassets */,
 				F311CF111E6F1FD500E135E4 /* LaunchScreen.storyboard */,
 				F311CF141E6F1FD500E135E4 /* Info.plist */,
+				F311CF361E6F518100E135E4 /* flowersData.json */,
+				F311CF381E6F538100E135E4 /* languageData.json */,
 			);
 			path = "Reading JSON + Language Identifier with Array";
 			sourceTree = "<group>";
@@ -232,6 +238,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F311CF371E6F518100E135E4 /* flowersData.json in Resources */,
+				F311CF391E6F538100E135E4 /* languageData.json in Resources */,
 				F311CF131E6F1FD500E135E4 /* LaunchScreen.storyboard in Resources */,
 				F311CF101E6F1FD500E135E4 /* Assets.xcassets in Resources */,
 				F311CF0E1E6F1FD500E135E4 /* Main.storyboard in Resources */,
