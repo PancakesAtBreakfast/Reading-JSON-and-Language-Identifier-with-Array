@@ -1,136 +1,136 @@
 {
     "translate to": {
         "he": {
-            "data": [
-                     {
-                     "name": "כלנית",
-                     "image": "https://upload.wikimedia.org/wikipedia/commons/d/de/Anemones5.jpg",
-                     "season": "סתיו"
+            "data": {
+                  "0": {
+                        "name": "כלנית",
+                        "image": "https://upload.wikimedia.org/wikipedia/commons/d/de/Anemones5.jpg",
+                        "season": "סתיו"
+                       },
+                  "1": {
+                        "name": "חמניה",
+                        "image": "https://upload.wikimedia.org/wikipedia/commons/a/a9/A_sunflower.jpg",
+                        "season": "סתיו"
+                       },
+                  "2": {
+                        "name": "רקפת",
+                        "image": "https://upload.wikimedia.org/wikipedia/commons/d/de/Wild_cyclamens.jpg",
+                        "season": "חורף"
+                        },
+                  "3": {
+                        "name": "נרקיס",
+                        "image": "https://upload.wikimedia.org/wikipedia/commons/9/96/A_Perfect_Pair_Daffodills_%28Narcissus%29_-_8.jpg",
+                        "season": "חורף"
+                        },
+                  "4": {
+                        "name": "ציפור גן עדן",
+                        "image": "https://upload.wikimedia.org/wikipedia/commons/1/1c/Strelitzia_larger.jpg",
+                        "season": "קיץ"
                      },
-                     {
-                     "name": "חמניה",
-                     "image": "https://upload.wikimedia.org/wikipedia/commons/a/a9/A_sunflower.jpg",
-                     "season": "סתיו"
+                  "5": {
+                        "name": "לילך",
+                        "image": "https://upload.wikimedia.org/wikipedia/commons/c/c6/Stockholm-lilac.jpg",
+                        "season": "קיץ"
                      },
-                     {
-                     "name": "רקפת",
-                     "image": "https://upload.wikimedia.org/wikipedia/commons/d/de/Wild_cyclamens.jpg",
-                     "season": "חורף"
+                  "6": {
+                        "name": "ורד",
+                        "image": "https://upload.wikimedia.org/wikipedia/commons/3/37/Rose_Amber_Flush_20070601.jpg",
+                        "season": "אביב"
                      },
-                     {
-                     "name": "נרקיס",
-                     "image": "https://upload.wikimedia.org/wikipedia/commons/9/96/A_Perfect_Pair_Daffodills_%28Narcissus%29_-_8.jpg",
-                     "season": "חורף"
+                  "7": {
+                        "name": "צבעוני",
+                        "image": "https://upload.wikimedia.org/wikipedia/commons/4/44/Tulip_-_floriade_canberra.jpg",
+                        "season": "אביב"
                      },
-                     {
-                     "name": "ציפור גן עדן",
-                     "image": "https://upload.wikimedia.org/wikipedia/commons/1/1c/Strelitzia_larger.jpg",
-                     "season": "קיץ"
-                     },
-                     {
-                     "name": "לילך",
-                     "image": "https://upload.wikimedia.org/wikipedia/commons/c/c6/Stockholm-lilac.jpg",
-                     "season": "קיץ"
-                     },
-                     {
-                     "name": "ורד",
-                     "image": "https://upload.wikimedia.org/wikipedia/commons/3/37/Rose_Amber_Flush_20070601.jpg",
-                     "season": "אביב"
-                     },
-                     {
-                     "name": "צבעוני",
-                     "image": "https://upload.wikimedia.org/wikipedia/commons/4/44/Tulip_-_floriade_canberra.jpg",
-                     "season": "אביב"
-                     }
-                     ]
+            },
         },
         "tr": {
-            "data": [
-                     {
-                     "name": "Anemone",
-                     "image": "https://upload.wikimedia.org/wikipedia/commons/d/de/Anemones5.jpg",
-                     "season": "Sonbahar"
-                     },
-                     {
-                     "name": "Ayçiçeği",
-                     "image": "https://upload.wikimedia.org/wikipedia/commons/a/a9/A_sunflower.jpg",
-                     "season": "Sonbahar"
-                     },
-                     {
-                     "name": "Siklamen",
-                     "image": "https://upload.wikimedia.org/wikipedia/commons/d/de/Wild_cyclamens.jpg",
-                     "season": "Kış"
-                     },
-                     {
-                     "name": "Nergis",
-                     "image": "https://upload.wikimedia.org/wikipedia/commons/9/96/A_Perfect_Pair_Daffodills_%28Narcissus%29_-_8.jpg",
-                     "season": "Kış"
-                     },
-                     {
-                     "name": "Strelitzia reginae",
-                     "image": "https://upload.wikimedia.org/wikipedia/commons/1/1c/Strelitzia_larger.jpg",
-                     "season": "Yaz"
-                     },
-                     {
-                     "name": "Leylak",
-                     "image": "https://upload.wikimedia.org/wikipedia/commons/c/c6/Stockholm-lilac.jpg",
-                     "season": "Yaz"
-                     },
-                     {
-                     "name": "Gül",
-                     "image": "https://upload.wikimedia.org/wikipedia/commons/3/37/Rose_Amber_Flush_20070601.jpg",
-                     "season": "İlkbahar"
-                     },
-                     {
-                     "name": "Lale",
-                     "image": "https://upload.wikimedia.org/wikipedia/commons/4/44/Tulip_-_floriade_canberra.jpg",
-                     "season": "İlkbahar"
-                     }
-                     ]
+            "data": {
+                "0": {
+                    "name": "Anemone",
+                    "image": "https://upload.wikimedia.org/wikipedia/commons/d/de/Anemones5.jpg",
+                    "season": "Sonbahar"
+                },
+                "1": {
+                    "name": "Ayçiçeği",
+                    "image": "https://upload.wikimedia.org/wikipedia/commons/a/a9/A_sunflower.jpg",
+                    "season": "Sonbahar"
+                },
+                "2": {
+                    "name": "Siklamen",
+                    "image": "https://upload.wikimedia.org/wikipedia/commons/d/de/Wild_cyclamens.jpg",
+                    "season": "Kış"
+                },
+                "3": {
+                    "name": "Nergis",
+                    "image": "https://upload.wikimedia.org/wikipedia/commons/9/96/A_Perfect_Pair_Daffodills_%28Narcissus%29_-_8.jpg",
+                    "season": "Kış"
+                },
+                "4": {
+                    "name": "Strelitzia reginae",
+                    "image": "https://upload.wikimedia.org/wikipedia/commons/1/1c/Strelitzia_larger.jpg",
+                    "season": "Yaz"
+                },
+                "5": {
+                    "name": "Leylak",
+                    "image": "https://upload.wikimedia.org/wikipedia/commons/c/c6/Stockholm-lilac.jpg",
+                    "season": "Yaz"
+                },
+                "6": {
+                    "name": "Gül",
+                    "image": "https://upload.wikimedia.org/wikipedia/commons/3/37/Rose_Amber_Flush_20070601.jpg",
+                    "season": "İlkbahar"
+                },
+                "7": {
+                    "name": "Lale",
+                    "image": "https://upload.wikimedia.org/wikipedia/commons/4/44/Tulip_-_floriade_canberra.jpg",
+                    "season": "İlkbahar"
+                },
+            },
         },
         "en": {
-            "data": [
-                     {
-                     "name": "Anemone",
-                     "image": "https://upload.wikimedia.org/wikipedia/commons/d/de/Anemones5.jpg",
-                     "season": "Autumn"
-                     },
-                     {
-                     "name": "Sunflower",
-                     "image": "https://upload.wikimedia.org/wikipedia/commons/a/a9/A_sunflower.jpg",
-                     "season": "Autumn"
-                     },
-                     {
-                     "name": "Cyclamen",
-                     "image": "https://upload.wikimedia.org/wikipedia/commons/d/de/Wild_cyclamens.jpg",
-                     "season": "Winter"
-                     },
-                     {
-                     "name": "Narcissus",
-                     "image": "https://upload.wikimedia.org/wikipedia/commons/9/96/A_Perfect_Pair_Daffodills_%28Narcissus%29_-_8.jpg",
-                     "season": "Winter"
-                     },
-                     {
-                     "name": "Bird of Paradise",
-                     "image": "https://upload.wikimedia.org/wikipedia/commons/1/1c/Strelitzia_larger.jpg",
-                     "season": "Summer"
-                     },
-                     {
-                     "name": "Lilac",
-                     "image": "https://upload.wikimedia.org/wikipedia/commons/c/c6/Stockholm-lilac.jpg",
-                     "season": "Summer"
-                     },
-                     {
-                     "name": "Rose",
-                     "image": "https://upload.wikimedia.org/wikipedia/commons/3/37/Rose_Amber_Flush_20070601.jpg",
-                     "season": "Spring"
-                     },
-                     {
-                     "name": "Tulip",
-                     "image": "https://upload.wikimedia.org/wikipedia/commons/4/44/Tulip_-_floriade_canberra.jpg",
-                     "season": "Spring"
-                     }
-                     ]
+            "data": {
+                "0": {
+                    "name": "Anemone",
+                    "image": "https://upload.wikimedia.org/wikipedia/commons/d/de/Anemones5.jpg",
+                    "season": "Autumn"
+                },
+                "1": {
+                    "name": "Sunflower",
+                    "image": "https://upload.wikimedia.org/wikipedia/commons/a/a9/A_sunflower.jpg",
+                    "season": "Autumn"
+                },
+                "2": {
+                    "name": "Cyclamen",
+                    "image": "https://upload.wikimedia.org/wikipedia/commons/d/de/Wild_cyclamens.jpg",
+                    "season": "Winter"
+                },
+                "3": {
+                    "name": "Narcissus",
+                    "image": "https://upload.wikimedia.org/wikipedia/commons/9/96/A_Perfect_Pair_Daffodills_%28Narcissus%29_-_8.jpg",
+                    "season": "Winter"
+                },
+                "4": {
+                    "name": "Bird of Paradise",
+                    "image": "https://upload.wikimedia.org/wikipedia/commons/1/1c/Strelitzia_larger.jpg",
+                    "season": "Summer"
+                },
+                "5": {
+                    "name": "Lilac",
+                    "image": "https://upload.wikimedia.org/wikipedia/commons/c/c6/Stockholm-lilac.jpg",
+                    "season": "Summer"
+                },
+                "6": {
+                    "name": "Rose",
+                    "image": "https://upload.wikimedia.org/wikipedia/commons/3/37/Rose_Amber_Flush_20070601.jpg",
+                    "season": "Spring"
+                },
+                "7": {
+                    "name": "Tulip",
+                    "image": "https://upload.wikimedia.org/wikipedia/commons/4/44/Tulip_-_floriade_canberra.jpg",
+                    "season": "Spring"
+                },
+            },
         }
     }
 }

@@ -5,13 +5,23 @@
 //  Created by Niso on 3/7/17.
 //  Copyright © 2017 Niso. All rights reserved.
 //
+//
+// JSON file read according to Phone language.
+// There are two JSON files that are built in a different format.
+// One consists of a dictionary and array, and the other one consists only dictionary.
+// Despite the differences in their structure they both use the same array to display the names of the flowers.
 
 import UIKit
 
 class ViewController: UIViewController, UITableViewDataSource, UITableViewDelegate {
 
-    var dataList:NSArray!
     var selectedCellNumberFromDataList:NSDictionary!
+    var translateTo:NSDictionary!
+    var languageRegion:NSDictionary!
+    var dataList:NSDictionary!
+    var flowersData:NSArray!
+    var namesArray = [String]()
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -35,12 +45,22 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
                 let readableJSON = try JSONSerialization.jsonObject(with: jsonData!, options: JSONSerialization.ReadingOptions.mutableContainers) as! NSDictionary
                 
                 // translate to dictionary
-                let translateDict = readableJSON["translate to"] as! NSDictionary
-                // Language dictionary according to languageId
-                let languageDict = translateDict[languageId] as! NSDictionary
-                self.dataList = languageDict["data"] as! NSArray
-                print(self.dataList)
+                translateTo = readableJSON["translate to"] as! NSDictionary
                 
+                // Language dictionary according to languageId
+                languageRegion = translateTo[languageId] as! NSDictionary
+                
+                // The data of the selected language
+                dataList = languageRegion["data"] as! NSDictionary
+                
+                // The flowers names inserted into array by for loop
+                for flower in dataList{
+                    let flowerDict  = flower.value as! NSDictionary
+                    let name = flowerDict.value(forKey: "name")
+                    self.namesArray.append(name as! String)
+                    print(namesArray)
+                    
+                }
             }catch{
                 print("Error reading json file")
             }
@@ -53,8 +73,17 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
             do {
                 let readableJSON = try JSONSerialization.jsonObject(with: jsonData!, options: JSONSerialization.ReadingOptions.mutableContainers) as! NSDictionary
                 
-                self.dataList = readableJSON["data"] as! NSArray
-                print(self.dataList)
+                self.flowersData = readableJSON.value(forKey: "data") as? NSArray
+                print(flowersData)
+                
+                // The flowers names inserted into array by for loop
+                for flower in flowersData{
+                    let flowerDict  = flower as! NSDictionary
+                    let flowersName = flowerDict.value(forKey: "name")
+                    self.namesArray.append(flowersName as! String)
+                    print(namesArray)
+                    
+                }
                 
             }catch{
                 print("Error reading json file")
@@ -69,8 +98,8 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
     }
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        if dataList != nil{
-            return dataList.count
+        if namesArray.count != 0{
+            return namesArray.count
         }
         
         return 0
@@ -79,8 +108,8 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "Cell", for: indexPath)
         
-        let item = dataList[indexPath.row] as! NSDictionary
-        cell.textLabel?.text = item.value(forKey: "name") as! String?
+        let item = namesArray[indexPath.row] as String
+        cell.textLabel?.text = item
         
         return cell
     }
