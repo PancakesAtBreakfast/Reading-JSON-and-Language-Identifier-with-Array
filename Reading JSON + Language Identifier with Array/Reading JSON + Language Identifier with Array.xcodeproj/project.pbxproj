@@ -16,6 +16,7 @@
 		F311CF291E6F1FD500E135E4 /* Reading_JSON___Language_Identifier_with_ArrayUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F311CF281E6F1FD500E135E4 /* Reading_JSON___Language_Identifier_with_ArrayUITests.swift */; };
 		F311CF371E6F518100E135E4 /* flowersData.json in Resources */ = {isa = PBXBuildFile; fileRef = F311CF361E6F518100E135E4 /* flowersData.json */; };
 		F311CF391E6F538100E135E4 /* languageData.json in Resources */ = {isa = PBXBuildFile; fileRef = F311CF381E6F538100E135E4 /* languageData.json */; };
+		F38C07551E7597C100C0B5DE /* FlowerInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F38C07541E7597C100C0B5DE /* FlowerInfoViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		F311CF2A1E6F1FD500E135E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F311CF361E6F518100E135E4 /* flowersData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = flowersData.json; sourceTree = "<group>"; };
 		F311CF381E6F538100E135E4 /* languageData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = languageData.json; sourceTree = "<group>"; };
+		F38C07541E7597C100C0B5DE /* FlowerInfoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlowerInfoViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 			children = (
 				F311CF081E6F1FD500E135E4 /* AppDelegate.swift */,
 				F311CF0A1E6F1FD500E135E4 /* ViewController.swift */,
+				F38C07541E7597C100C0B5DE /* FlowerInfoViewController.swift */,
 				F311CF0C1E6F1FD500E135E4 /* Main.storyboard */,
 				F311CF0F1E6F1FD500E135E4 /* Assets.xcassets */,
 				F311CF111E6F1FD500E135E4 /* LaunchScreen.storyboard */,
@@ -269,6 +272,7 @@
 			files = (
 				F311CF0B1E6F1FD500E135E4 /* ViewController.swift in Sources */,
 				F311CF091E6F1FD500E135E4 /* AppDelegate.swift in Sources */,
+				F38C07551E7597C100C0B5DE /* FlowerInfoViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -513,6 +517,7 @@
 				F311CF2F1E6F1FD500E135E4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F311CF301E6F1FD500E135E4 /* Build configuration list for PBXNativeTarget "Reading JSON + Language Identifier with ArrayTests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +526,7 @@
 				F311CF321E6F1FD500E135E4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F311CF331E6F1FD500E135E4 /* Build configuration list for PBXNativeTarget "Reading JSON + Language Identifier with ArrayUITests" */ = {
 			isa = XCConfigurationList;
@@ -529,6 +535,7 @@
 				F311CF351E6F1FD500E135E4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

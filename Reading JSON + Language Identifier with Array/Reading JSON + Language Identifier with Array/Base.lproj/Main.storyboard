@@ -68,10 +68,56 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="uOh-9B-vwG"/>
+                    <connections>
+                        <segue destination="Aeq-iq-a9q" kind="show" identifier="flowerInfoSegue" id="k1W-xP-Z73"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1056.8" y="123.68815592203899"/>
+        </scene>
+        <!--Flower Info View Controller-->
+        <scene sceneID="bQW-0r-P6v">
+            <objects>
+                <viewController id="Aeq-iq-a9q" customClass="FlowerInfoViewController" customModule="Reading_JSON___Language_Identifier_with_Array" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="usL-rV-iyW"/>
+                        <viewControllerLayoutGuide type="bottom" id="cyU-fU-cyh"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="JCy-q1-Y3q">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Flower Name" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="agY-1B-Rcz">
+                                <rect key="frame" x="87" y="88" width="200" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Season" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KL9-Hy-ypg">
+                                <rect key="frame" x="137" y="425" width="100" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="uRB-Cg-29z">
+                                <rect key="frame" x="67" y="135" width="240" height="260"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <connections>
+                        <outlet property="flowerImageView" destination="uRB-Cg-29z" id="ibb-Rh-bok"/>
+                        <outlet property="flowerNameLabel" destination="agY-1B-Rcz" id="NU7-gV-XAB"/>
+                        <outlet property="flowerSeasonLabel" destination="KL9-Hy-ypg" id="BTv-3q-lzI"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="4vU-D1-XlA" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1914" y="124"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="IAK-Cn-Fbe">

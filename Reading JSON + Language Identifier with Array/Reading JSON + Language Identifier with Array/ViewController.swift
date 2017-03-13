@@ -15,7 +15,7 @@ import UIKit
 
 class ViewController: UIViewController, UITableViewDataSource, UITableViewDelegate {
 
-    var selectedCellNumberFromDataList:NSDictionary!
+    var selectedFlowerData:NSDictionary!
     var translateTo:NSDictionary!
     var languageRegion:NSDictionary!
     var dataList:NSDictionary!
@@ -113,10 +113,45 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
         
         return cell
     }
+    
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        tableView.deselectRow(at: indexPath, animated: true)
+        
+        // If flowersData is NOT empty it means the device's language is English
+        if flowersData != nil {
+            selectedFlowerData = flowersData.object(at: indexPath.row) as! NSDictionary
+            print(selectedFlowerData)
+        }else{
+            // If the device's language is not English we'll use dataList
+            var flowerSelectedData:NSDictionary!
+            let flowerSelected = namesArray[indexPath.row]
+            for flower in dataList{
+                let flowerDict  = flower.value as! NSDictionary
+                let name:String = flowerDict.value(forKey: "name") as! String
+                if flowerSelected == name {
+                    flowerSelectedData = flowerDict
+                    print("equal")
+                    break
+                }else{
+                    print("Not equal")
+                }
+            }
+            
+            selectedFlowerData = flowerSelectedData
+            print(selectedFlowerData)
+        }
+        
+        // Move to the next screen
+        performSegue(withIdentifier: "flowerInfoSegue", sender: self)
+    }
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+    // MARK: - Navigation to Flower Info screen
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if segue.identifier == "flowerInfoSegue" {
+            let flowerInfoScreen = segue.destination as! FlowerInfoViewController
+            
+            flowerInfoScreen.flowerInfoData = selectedFlowerData
+        }
     }
 
 
